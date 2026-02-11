@@ -25,7 +25,14 @@ SECRET_KEY = 'fas29h=2hsu299h^7#t#3%=#)ein-%k1qia-ob5emem1)k@3(('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# 모든 주소에 대하여 허용하려면 다음과 같이 작성합니다.
+ALLOWED_HOSTS = ['*']
+
+# ALLOWED_HOSTS = [
+#     '121.162.59.125',
+#     'localhost',
+#     '127.0.0.1',
+# ]
 
 '''
 '템플릿' 에서 숫자에 '콤마' 붙이는 방법

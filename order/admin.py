@@ -8,7 +8,7 @@ class OrderProductInline(admin.TabularInline):
 
 @admin.register(Order)
 class OrderAdmin(admin.ModelAdmin):
-    # Order 목록 : 주문 ID, 주문자 이메일, 주문 상태(대기/완료/취소), 주문 일자(시간 포함)
+    # Order 목록 : 주문 ID, 주문자 이메일, 주문 상태(대기/완료/취소), 주문 일자(시간 포함)##
     list_display = (
         'id',
         'member',
